@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    background-color: #1c1c1c;
+    color: #ffa726;
+}
+
+li,
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px; 
+    color: #ff8c00;
+}
+
+header {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #111111;
+    margin-bottom: 3%; 
+}
+
+h1 {
+    color: #ff8c00;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+.table_home {
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+.table_home img {
+    margin: 10px; 
+    border-radius: 10%;
+    width:425px;
+    height:600px;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+}
+
+.about img {
+    height: 158px;
+    width: 280px;
+    border-radius: 50px;
+}
+
+.about-txt {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ff8c00;
+    border-radius: 20px;
+    background-color: #333;
+    color: #ffffff;
+    width: 91%;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    width: auto;
+}
+
+input[type="button"]:hover {
+    background: #ff8c00;
+}
+
+button {
+    background: #ff8c00;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ffa726;
+}
+
+th,
+td {
+    border: 1px solid #ff8c00;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+th {
+    background-color: #333;
+    color: #ff8c00;
+}

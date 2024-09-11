@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime CRUD</title>
+    <link rel="stylesheet" href="Style_Animeinfo.css">
+    <script src="Script_Animeinfo.js"></script>
+</head>
+
+<body>
+    
+    <header>
+        <h1>AnimeInformation</h1>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="AnimeHome.html">Home</a></li>
+                <li><a href="AboutMe.html">About Me</a></li>
+                <li><a href="#">AnimeCrud</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table id="animeTable">
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="submitForm()" id="animeForm">
+                    <div>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" required>
+                    </div>
+                    <div>
+                        <label for="genre">Genre:</label>
+                        <input type="text" id="genre" required>
+                    </div>
+                    <div>
+                        <label for="genre">Date:</label>
+                        <input type="text" id="Date" required>
+                    </div>
+                    <div class="form_action--button">
+                        <input type="button" value="Submit" onclick="addAnime()">
+                        <input type="button" value="Clear" onclick="clearForm()">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="animeTableBody">
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
